@@ -496,7 +496,7 @@ a {
   border-color: #4d5ae5;
 }
 
-.modal-input:hover svg {
+.modal-input:hover > svg {
   fill: #fff;
 }
 .modal-input:focus svg {
@@ -586,9 +586,13 @@ a {
 }
 .footer-form {
   display: flex;
+  gap: 24px;
 }
 .footer-form-input {
   margin-left: 80px;
+}
+.page {
+  margin-left: 24px;
 }
 .footer-input {
   border: 1px solid #fff;
@@ -617,7 +621,6 @@ a {
   text-align: center;
   color: #fff;
   border: none;
-  margin-left: 24px;
   display: flex;
 }
 .footer-icon-btn {
