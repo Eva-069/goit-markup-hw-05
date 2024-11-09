@@ -638,11 +638,12 @@ a {
   line-height: 200%;
   letter-spacing: 0.04em;
   color: #fff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 .footer-btn {
   border-radius: 4px;
   padding: 8px 24px;
-  width: 165px;
+  min-width: 165px;
   height: 40px;
   background-color: #4d5ae5;
   font-weight: 500;
@@ -654,6 +655,8 @@ a {
   border: none;
   display: flex;
   cursor: pointer;
+  justify-content: center;
+  align-items: center;
 }
 .footer-icon-btn {
   margin-left: 16px;
