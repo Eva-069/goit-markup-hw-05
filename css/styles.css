@@ -512,11 +512,8 @@ a {
   border-color: #4d5ae5;
 }
 
-.modal-input:hover > svg {
-  fill: #fff;
-}
 .modal-input:focus svg {
-  fill: #fff;
+  fill: #4d5ae5;
 }
 
 .modal-label {
@@ -529,6 +526,7 @@ a {
   margin-bottom: 4px;
 }
 .modal-field {
+  margin-bottom: 8px;
   margin-bottom: 24px;
 }
 .modal-icon-form {
@@ -584,6 +582,8 @@ a {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal-span {
   display: inline-flex;
 }
 .modal-check:checked + .modal-check-text span {
