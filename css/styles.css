@@ -511,11 +511,16 @@ a {
 .modal-input:focus {
   border-color: #4d5ae5;
 }
-
+.modal-input:focus + .modal-icon-form {
+  fill: #4d5ae5;
+}
 .close-modal-btn:focus svg {
   fill: #fff;
 }
-
+.close-modal-btn:hover > .modal-icon,
+.close-modal-btn:focus > .modal-icon {
+  fill: #fff;
+}
 .modal-label {
   font-weight: 400;
   font-size: 12px;
@@ -564,7 +569,6 @@ a {
   line-height: 117%;
   letter-spacing: 0.04em;
   color: #8e8f99;
-  display: flex;
   align-items: center;
 }
 .modal-check-text span {
@@ -660,4 +664,7 @@ a {
 }
 .footer-icon-btn {
   margin-left: 16px;
+}
+.checkbox-footer {
+  margin-bottom: 24px;
 }
