@@ -512,8 +512,8 @@ a {
   border-color: #4d5ae5;
 }
 
-.modal-input:focus svg {
-  fill: #4d5ae5;
+.close-modal-btn:focus svg {
+  fill: #fff;
 }
 
 .modal-label {
